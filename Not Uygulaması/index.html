@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Not Uygulaması</title>
+    <link rel="stylesheet" href="styles.scss">
+</head>
+<body>
+    <div class="container">
+        <h1>Notlar</h1>
+        <div class="note-input">
+            <input type="text" id="note-title" placeholder="Not Başlığı">
+            <div id="note-content" contenteditable="true" placeholder="Notunuzu buraya yazın..."></div>
+            <div class="text-styles">
+                <button id="bold-btn" class="style-btn">Kalın</button>
+                <button id="italic-btn" class="style-btn">İtalik</button>
+                <button id="underline-btn" class="style-btn">Altı Çizili</button>
+                <button id="strike-btn" class="style-btn">Üstü Çizili</button>
+            </div>
+            <button id="add-note">Not Ekle</button>
+        </div>
+        <div class="notes-container" id="notes-container"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
